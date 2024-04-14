@@ -10,8 +10,5 @@ public class WelcomeController {
     public String welcome() {
         return "welcome";
     }
-    @DeleteMapping("/welcome")
-    public String deleteWelcome(){
-    return "delete welcome";
-    }
+
 }
